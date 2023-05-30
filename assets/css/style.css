@@ -1,13 +1,23 @@
+@font-face {
+  font-family: montserrat;
+  src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: montserrat, "Times New Roman", Times, serif;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 header {
   height: 10vh;
   width: 100vw;
-  background: rgb(90, 90, 90);
+  background: rgb(41, 43, 63);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,44 +26,43 @@ header {
 
 main {
   height: 90vh;
-  background: rgb(90, 90, 90);
-  overflow: scroll;
+  background: rgb(41, 43, 63);
   padding: 0 50px;
 }
 
 h1 {
-  font-size: 6rem;
-  color: rgb(235, 235, 235);
+  font-size: 4rem;
+  color: rgb(197, 249, 190);
 }
 
 .input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 input {
-  height: 5rem;
-  width: 20rem;
+  height: 4.4rem;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   border: none;
   border-radius: 10px;
 }
 
 select {
-  font-size: 2.2rem;
-  padding: 20px;
+  font-size: 1.8rem;
+  padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
 
 button {
-  font-size: 2.2rem;
-  padding: 20px;
+  font-size: 2rem;
+  padding: 10px;
   border-radius: 20px;
-  border: 5px solid black;
+  background: rgb(197, 249, 190);
+  font-weight: bolder;
 }
 
 .output {
@@ -79,28 +88,28 @@ article:hover {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: lighter;
   margin-bottom: 10px;
 }
 
 h4 {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: lighter;
   margin-bottom: 10px;
 }
 
 p {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 
 a {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-decoration: none;
 }
 
