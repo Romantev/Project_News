@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="input">
+        <h1>News</h1>
+        <div>
+          <input type="text" id="input-text" placeholder="Schlagwort" />
+          <input type="date" placeholder="Zeitraum" id="input-time" />
+          <select name="sprache" id="language">
+            <option value="de">deutsch</option>
+            <option value="en">englisch</option>
+          </select>
+          <select name="Sortieren" id="sort">
+            <option value="publishedAt">Neuste</option>
+            <option value="popularity">Beliebtheit</option>
+            <option value="relevancy">Relevanz</option>
+          </select>
+          <button class="search">Suchen</button>
+        </div>
+        <div>
+          <select name="land" id="country">
+            <option value="de">Deutschland</option>
+            <option value="at">Österreich</option>
+            <option value="ch">Schweiz</option>
+            <option value="us">USA</option>
+            <option value="ru">Russland</option>
+          </select>
+          <select name="kategorie" id="category">
+            <option value="general">Alle</option>
+            <option value="entertainment">Unterhaltung</option>
+            <option value="technology">Technologie</option>
+            <option value="science">Wissenschaft</option>
+            <option value="health">Gesundheit</option>
+            <option value="sports">Sport</option>
+            <option value="business">Business</option>
+          </select>
+          <button class="top-headlines">Top News</button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="output"></section>
+    </main>
+    <script src="./assets/js/main.js" type="text/javascript"></script>
+  </body>
+</html>

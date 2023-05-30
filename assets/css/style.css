@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  width: 100vw;
+  background: rgb(90, 90, 90);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+main {
+  height: 90vh;
+  background: rgb(90, 90, 90);
+  overflow: scroll;
+  padding: 0 50px;
+}
+
+h1 {
+  font-size: 6rem;
+  color: rgb(235, 235, 235);
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+input {
+  height: 5rem;
+  width: 20rem;
+  text-align: center;
+  font-size: 2.5rem;
+  border: none;
+  border-radius: 10px;
+}
+
+select {
+  font-size: 2.2rem;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+button {
+  font-size: 2.2rem;
+  padding: 20px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+.output {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 30px;
+  align-items: start;
+}
+
+article {
+  background: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 3px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+article:hover {
+  animation: bounce 0.5s linear alternate;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 2.2rem;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 2.2rem;
+}
+
+a {
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.author {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-5px);
+  }
+
+  40% {
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY();
+  }
+}
